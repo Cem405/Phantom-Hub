@@ -1,0 +1,20 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "netherking:king_of_the_nether",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/nether_king"
+      },
+      "geometry": {
+        "default": "geometry.nether_king"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ]
+    }
+  }
+}
