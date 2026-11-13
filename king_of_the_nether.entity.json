@@ -14,7 +14,15 @@
       },
       "render_controllers": [
         "controller.render.default"
-      ]
+      ],
+      "animations": {
+        "attack": "animation.king_of_the_nether.attack"
+      },
+      "scripts": {
+        "animate": [
+          { "attack": "query.is_moving" }
+        ]
+      }
     }
   }
 }
